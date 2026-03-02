@@ -1,0 +1,2434 @@
+{
+  "summary": {
+    "Cosine Similarity": {
+      "accuracy": 54.0,
+      "correct": 54,
+      "total": 100
+    },
+    "Euclidean Distance": {
+      "accuracy": 45.0,
+      "correct": 45,
+      "total": 100
+    },
+    "Jaccard Similarity": {
+      "accuracy": 18.0,
+      "correct": 18,
+      "total": 100
+    },
+    "Dot Product": {
+      "accuracy": 42.0,
+      "correct": 42,
+      "total": 100
+    }
+  },
+  "detailed_predictions": {
+    "Cosine Similarity": [
+      [
+        "correct",
+        "help me answer questions from documents",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "I need to find answers in text",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "answer questions about articles",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "what is question answering",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "how to answer questions",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "qa system",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "respond to queries",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "extract answers from text",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "incorrect",
+        "find information in documents",
+        "Question Answering",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "answer questions from context",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "help me with my homework",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "incorrect",
+        "what does this text mean",
+        "Question Answering",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "explain this paragraph",
+        "Question Answering",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "get answers from data",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "question and answer system",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "retrieve answers",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "answer user queries",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "find answers in passages",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "answer questions about content",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "query answering system",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "summarize long articles",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "condense text into shorter version",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "create summary of documents",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "text summarization",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "summarise articles",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "brief overview of text",
+        "Summarization",
+        "Text Classification"
+      ],
+      [
+        "correct",
+        "shorten this document",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "extract key points",
+        "Summarization",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "generate summary",
+        "Summarization",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "compress text",
+        "Summarization",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "make this shorter",
+        "Summarization",
+        "Sentence Similarity"
+      ],
+      [
+        "correct",
+        "summarize legal contracts",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "brief summary needed",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "condense information",
+        "Summarization",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "text compression",
+        "Summarization",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "classify images",
+        "Image Classification",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "identify objects in pictures",
+        "Image Classification",
+        "Image Captioning"
+      ],
+      [
+        "incorrect",
+        "what is in this image",
+        "Image Classification",
+        "Image Captioning"
+      ],
+      [
+        "incorrect",
+        "image recognition",
+        "Image Classification",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "categorize photos",
+        "Image Classification",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "classify images of animals",
+        "Image Classification",
+        "Image Classification"
+      ],
+      [
+        "incorrect",
+        "identify image content",
+        "Image Classification",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "picture classification",
+        "Image Classification",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "recognize objects in images",
+        "Image Classification",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "image categorization",
+        "Image Classification",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "what objects are in photo",
+        "Image Classification",
+        "Image Captioning"
+      ],
+      [
+        "incorrect",
+        "classify pictures",
+        "Image Classification",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "image labeling",
+        "Image Classification",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "categorize images",
+        "Image Classification",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "identify image types",
+        "Image Classification",
+        "Image Generation"
+      ],
+      [
+        "correct",
+        "sentiment analysis",
+        "Text Classification",
+        "Text Classification"
+      ],
+      [
+        "correct",
+        "classify text sentiment",
+        "Text Classification",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "detect emotion in text",
+        "Text Classification",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "text categorization",
+        "Text Classification",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "classify documents",
+        "Text Classification",
+        "Text Classification"
+      ],
+      [
+        "correct",
+        "sentiment detection",
+        "Text Classification",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "categorize text",
+        "Text Classification",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "classify text into categories",
+        "Text Classification",
+        "Text Classification"
+      ],
+      [
+        "correct",
+        "text sentiment",
+        "Text Classification",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "document classification",
+        "Text Classification",
+        "Image Classification"
+      ],
+      [
+        "incorrect",
+        "categorize reviews",
+        "Text Classification",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "sentiment classifier",
+        "Text Classification",
+        "Text Classification"
+      ],
+      [
+        "correct",
+        "classify text by topic",
+        "Text Classification",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "text category detection",
+        "Text Classification",
+        "Object Detection"
+      ],
+      [
+        "correct",
+        "sentiment analysis tool",
+        "Text Classification",
+        "Text Classification"
+      ],
+      [
+        "correct",
+        "translate text",
+        "Translation",
+        "Translation"
+      ],
+      [
+        "incorrect",
+        "language translation",
+        "Translation",
+        "Text Classification"
+      ],
+      [
+        "correct",
+        "translate between languages",
+        "Translation",
+        "Translation"
+      ],
+      [
+        "incorrect",
+        "convert text to another language",
+        "Translation",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "multilingual translation",
+        "Translation",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "correct",
+        "translate documents",
+        "Translation",
+        "Translation"
+      ],
+      [
+        "incorrect",
+        "language converter",
+        "Translation",
+        "Text Generation"
+      ],
+      [
+        "correct",
+        "translate sentences",
+        "Translation",
+        "Translation"
+      ],
+      [
+        "incorrect",
+        "text translation service",
+        "Translation",
+        "Text Generation"
+      ],
+      [
+        "correct",
+        "translate content",
+        "Translation",
+        "Translation"
+      ],
+      [
+        "correct",
+        "generate images",
+        "Image Generation",
+        "Image Generation"
+      ],
+      [
+        "correct",
+        "create pictures",
+        "Image Generation",
+        "Image Generation"
+      ],
+      [
+        "correct",
+        "draw images",
+        "Image Generation",
+        "Image Generation"
+      ],
+      [
+        "correct",
+        "image generation",
+        "Image Generation",
+        "Image Generation"
+      ],
+      [
+        "correct",
+        "create artwork",
+        "Image Generation",
+        "Image Generation"
+      ],
+      [
+        "correct",
+        "generate pictures",
+        "Image Generation",
+        "Image Generation"
+      ],
+      [
+        "correct",
+        "draw pictures",
+        "Image Generation",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "create images from text",
+        "Image Generation",
+        "Text Generation"
+      ],
+      [
+        "correct",
+        "image creation",
+        "Image Generation",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "generate visual content",
+        "Image Generation",
+        "Text Generation"
+      ],
+      [
+        "correct",
+        "speech recognition",
+        "Automatic Speech Recognition",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "correct",
+        "transcribe audio",
+        "Automatic Speech Recognition",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "convert speech to text",
+        "Automatic Speech Recognition",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "image captioning",
+        "Image Captioning",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "describe images",
+        "Image Captioning",
+        "Image Classification"
+      ],
+      [
+        "correct",
+        "generate captions for photos",
+        "Image Captioning",
+        "Image Captioning"
+      ],
+      [
+        "correct",
+        "sentence similarity",
+        "Sentence Similarity",
+        "Sentence Similarity"
+      ],
+      [
+        "correct",
+        "compare text similarity",
+        "Sentence Similarity",
+        "Sentence Similarity"
+      ],
+      [
+        "correct",
+        "find similar sentences",
+        "Sentence Similarity",
+        "Sentence Similarity"
+      ],
+      [
+        "incorrect",
+        "video generation",
+        "Video Generation",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "create animations",
+        "Video Generation",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "generate video content",
+        "Video Generation",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "text to speech",
+        "Text-to-Speech",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "convert text to audio",
+        "Text-to-Speech",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "speech synthesis",
+        "Text-to-Speech",
+        "Automatic Speech Recognition"
+      ]
+    ],
+    "Euclidean Distance": [
+      [
+        "correct",
+        "help me answer questions from documents",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "I need to find answers in text",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "answer questions about articles",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "what is question answering",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "how to answer questions",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "incorrect",
+        "qa system",
+        "Question Answering",
+        "Image Classification"
+      ],
+      [
+        "correct",
+        "respond to queries",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "extract answers from text",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "incorrect",
+        "find information in documents",
+        "Question Answering",
+        "Sentence Similarity"
+      ],
+      [
+        "correct",
+        "answer questions from context",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "help me with my homework",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "incorrect",
+        "what does this text mean",
+        "Question Answering",
+        "Sentence Similarity"
+      ],
+      [
+        "incorrect",
+        "explain this paragraph",
+        "Question Answering",
+        "Sentence Similarity"
+      ],
+      [
+        "correct",
+        "get answers from data",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "question and answer system",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "retrieve answers",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "answer user queries",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "find answers in passages",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "answer questions about content",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "query answering system",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "summarize long articles",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "condense text into shorter version",
+        "Summarization",
+        "Image Captioning"
+      ],
+      [
+        "correct",
+        "create summary of documents",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "text summarization",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "summarise articles",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "brief overview of text",
+        "Summarization",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "shorten this document",
+        "Summarization",
+        "Sentence Similarity"
+      ],
+      [
+        "incorrect",
+        "extract key points",
+        "Summarization",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "generate summary",
+        "Summarization",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "compress text",
+        "Summarization",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "make this shorter",
+        "Summarization",
+        "Sentence Similarity"
+      ],
+      [
+        "correct",
+        "summarize legal contracts",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "brief summary needed",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "condense information",
+        "Summarization",
+        "Image Classification"
+      ],
+      [
+        "incorrect",
+        "text compression",
+        "Summarization",
+        "Text Generation"
+      ],
+      [
+        "correct",
+        "classify images",
+        "Image Classification",
+        "Image Classification"
+      ],
+      [
+        "incorrect",
+        "identify objects in pictures",
+        "Image Classification",
+        "Object Detection"
+      ],
+      [
+        "incorrect",
+        "what is in this image",
+        "Image Classification",
+        "Image Captioning"
+      ],
+      [
+        "incorrect",
+        "image recognition",
+        "Image Classification",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "categorize photos",
+        "Image Classification",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "classify images of animals",
+        "Image Classification",
+        "Image Classification"
+      ],
+      [
+        "incorrect",
+        "identify image content",
+        "Image Classification",
+        "Image Generation"
+      ],
+      [
+        "correct",
+        "picture classification",
+        "Image Classification",
+        "Image Classification"
+      ],
+      [
+        "incorrect",
+        "recognize objects in images",
+        "Image Classification",
+        "Object Detection"
+      ],
+      [
+        "incorrect",
+        "image categorization",
+        "Image Classification",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "what objects are in photo",
+        "Image Classification",
+        "Image Captioning"
+      ],
+      [
+        "correct",
+        "classify pictures",
+        "Image Classification",
+        "Image Classification"
+      ],
+      [
+        "correct",
+        "image labeling",
+        "Image Classification",
+        "Image Classification"
+      ],
+      [
+        "incorrect",
+        "categorize images",
+        "Image Classification",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "identify image types",
+        "Image Classification",
+        "Image Classification"
+      ],
+      [
+        "incorrect",
+        "sentiment analysis",
+        "Text Classification",
+        "Sentence Similarity"
+      ],
+      [
+        "incorrect",
+        "classify text sentiment",
+        "Text Classification",
+        "Sentence Similarity"
+      ],
+      [
+        "incorrect",
+        "detect emotion in text",
+        "Text Classification",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "text categorization",
+        "Text Classification",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "classify documents",
+        "Text Classification",
+        "Image Classification"
+      ],
+      [
+        "incorrect",
+        "sentiment detection",
+        "Text Classification",
+        "Object Detection"
+      ],
+      [
+        "incorrect",
+        "categorize text",
+        "Text Classification",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "classify text into categories",
+        "Text Classification",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "text sentiment",
+        "Text Classification",
+        "Sentence Similarity"
+      ],
+      [
+        "incorrect",
+        "document classification",
+        "Text Classification",
+        "Image Classification"
+      ],
+      [
+        "incorrect",
+        "categorize reviews",
+        "Text Classification",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "sentiment classifier",
+        "Text Classification",
+        "Sentence Similarity"
+      ],
+      [
+        "correct",
+        "classify text by topic",
+        "Text Classification",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "text category detection",
+        "Text Classification",
+        "Object Detection"
+      ],
+      [
+        "incorrect",
+        "sentiment analysis tool",
+        "Text Classification",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "translate text",
+        "Translation",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "language translation",
+        "Translation",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "translate between languages",
+        "Translation",
+        "Sentence Similarity"
+      ],
+      [
+        "incorrect",
+        "convert text to another language",
+        "Translation",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "multilingual translation",
+        "Translation",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "translate documents",
+        "Translation",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "language converter",
+        "Translation",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "translate sentences",
+        "Translation",
+        "Sentence Similarity"
+      ],
+      [
+        "incorrect",
+        "text translation service",
+        "Translation",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "translate content",
+        "Translation",
+        "Text Generation"
+      ],
+      [
+        "correct",
+        "generate images",
+        "Image Generation",
+        "Image Generation"
+      ],
+      [
+        "correct",
+        "create pictures",
+        "Image Generation",
+        "Image Generation"
+      ],
+      [
+        "correct",
+        "draw images",
+        "Image Generation",
+        "Image Generation"
+      ],
+      [
+        "correct",
+        "image generation",
+        "Image Generation",
+        "Image Generation"
+      ],
+      [
+        "correct",
+        "create artwork",
+        "Image Generation",
+        "Image Generation"
+      ],
+      [
+        "correct",
+        "generate pictures",
+        "Image Generation",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "draw pictures",
+        "Image Generation",
+        "Image Classification"
+      ],
+      [
+        "incorrect",
+        "create images from text",
+        "Image Generation",
+        "Text Generation"
+      ],
+      [
+        "correct",
+        "image creation",
+        "Image Generation",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "generate visual content",
+        "Image Generation",
+        "Text Generation"
+      ],
+      [
+        "correct",
+        "speech recognition",
+        "Automatic Speech Recognition",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "correct",
+        "transcribe audio",
+        "Automatic Speech Recognition",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "correct",
+        "convert speech to text",
+        "Automatic Speech Recognition",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "correct",
+        "image captioning",
+        "Image Captioning",
+        "Image Captioning"
+      ],
+      [
+        "incorrect",
+        "describe images",
+        "Image Captioning",
+        "Image Classification"
+      ],
+      [
+        "correct",
+        "generate captions for photos",
+        "Image Captioning",
+        "Image Captioning"
+      ],
+      [
+        "correct",
+        "sentence similarity",
+        "Sentence Similarity",
+        "Sentence Similarity"
+      ],
+      [
+        "correct",
+        "compare text similarity",
+        "Sentence Similarity",
+        "Sentence Similarity"
+      ],
+      [
+        "correct",
+        "find similar sentences",
+        "Sentence Similarity",
+        "Sentence Similarity"
+      ],
+      [
+        "incorrect",
+        "video generation",
+        "Video Generation",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "create animations",
+        "Video Generation",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "generate video content",
+        "Video Generation",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "text to speech",
+        "Text-to-Speech",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "convert text to audio",
+        "Text-to-Speech",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "speech synthesis",
+        "Text-to-Speech",
+        "Automatic Speech Recognition"
+      ]
+    ],
+    "Jaccard Similarity": [
+      [
+        "incorrect",
+        "help me answer questions from documents",
+        "Question Answering",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "I need to find answers in text",
+        "Question Answering",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "answer questions about articles",
+        "Question Answering",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "correct",
+        "what is question answering",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "incorrect",
+        "how to answer questions",
+        "Question Answering",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "qa system",
+        "Question Answering",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "respond to queries",
+        "Question Answering",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "extract answers from text",
+        "Question Answering",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "find information in documents",
+        "Question Answering",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "answer questions from context",
+        "Question Answering",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "help me with my homework",
+        "Question Answering",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "what does this text mean",
+        "Question Answering",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "explain this paragraph",
+        "Question Answering",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "get answers from data",
+        "Question Answering",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "correct",
+        "question and answer system",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "incorrect",
+        "retrieve answers",
+        "Question Answering",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "answer user queries",
+        "Question Answering",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "find answers in passages",
+        "Question Answering",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "answer questions about content",
+        "Question Answering",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "correct",
+        "query answering system",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "incorrect",
+        "summarize long articles",
+        "Summarization",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "condense text into shorter version",
+        "Summarization",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "create summary of documents",
+        "Summarization",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "correct",
+        "text summarization",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "summarise articles",
+        "Summarization",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "brief overview of text",
+        "Summarization",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "shorten this document",
+        "Summarization",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "extract key points",
+        "Summarization",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "generate summary",
+        "Summarization",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "compress text",
+        "Summarization",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "make this shorter",
+        "Summarization",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "summarize legal contracts",
+        "Summarization",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "brief summary needed",
+        "Summarization",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "condense information",
+        "Summarization",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "text compression",
+        "Summarization",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "classify images",
+        "Image Classification",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "identify objects in pictures",
+        "Image Classification",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "what is in this image",
+        "Image Classification",
+        "Image Captioning"
+      ],
+      [
+        "incorrect",
+        "image recognition",
+        "Image Classification",
+        "Image Captioning"
+      ],
+      [
+        "incorrect",
+        "categorize photos",
+        "Image Classification",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "classify images of animals",
+        "Image Classification",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "identify image content",
+        "Image Classification",
+        "Image Captioning"
+      ],
+      [
+        "correct",
+        "picture classification",
+        "Image Classification",
+        "Image Classification"
+      ],
+      [
+        "incorrect",
+        "recognize objects in images",
+        "Image Classification",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "image categorization",
+        "Image Classification",
+        "Image Captioning"
+      ],
+      [
+        "incorrect",
+        "what objects are in photo",
+        "Image Classification",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "classify pictures",
+        "Image Classification",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "image labeling",
+        "Image Classification",
+        "Image Captioning"
+      ],
+      [
+        "incorrect",
+        "categorize images",
+        "Image Classification",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "identify image types",
+        "Image Classification",
+        "Image Captioning"
+      ],
+      [
+        "incorrect",
+        "sentiment analysis",
+        "Text Classification",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "correct",
+        "classify text sentiment",
+        "Text Classification",
+        "Text Classification"
+      ],
+      [
+        "correct",
+        "detect emotion in text",
+        "Text Classification",
+        "Text Classification"
+      ],
+      [
+        "correct",
+        "text categorization",
+        "Text Classification",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "classify documents",
+        "Text Classification",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "sentiment detection",
+        "Text Classification",
+        "Object Detection"
+      ],
+      [
+        "correct",
+        "categorize text",
+        "Text Classification",
+        "Text Classification"
+      ],
+      [
+        "correct",
+        "classify text into categories",
+        "Text Classification",
+        "Text Classification"
+      ],
+      [
+        "correct",
+        "text sentiment",
+        "Text Classification",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "document classification",
+        "Text Classification",
+        "Image Classification"
+      ],
+      [
+        "incorrect",
+        "categorize reviews",
+        "Text Classification",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "sentiment classifier",
+        "Text Classification",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "correct",
+        "classify text by topic",
+        "Text Classification",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "text category detection",
+        "Text Classification",
+        "Object Detection"
+      ],
+      [
+        "incorrect",
+        "sentiment analysis tool",
+        "Text Classification",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "translate text",
+        "Translation",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "language translation",
+        "Translation",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "translate between languages",
+        "Translation",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "convert text to another language",
+        "Translation",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "multilingual translation",
+        "Translation",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "translate documents",
+        "Translation",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "language converter",
+        "Translation",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "translate sentences",
+        "Translation",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "text translation service",
+        "Translation",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "translate content",
+        "Translation",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "generate images",
+        "Image Generation",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "create pictures",
+        "Image Generation",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "draw images",
+        "Image Generation",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "correct",
+        "image generation",
+        "Image Generation",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "create artwork",
+        "Image Generation",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "generate pictures",
+        "Image Generation",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "draw pictures",
+        "Image Generation",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "create images from text",
+        "Image Generation",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "image creation",
+        "Image Generation",
+        "Image Captioning"
+      ],
+      [
+        "incorrect",
+        "generate visual content",
+        "Image Generation",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "correct",
+        "speech recognition",
+        "Automatic Speech Recognition",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "correct",
+        "transcribe audio",
+        "Automatic Speech Recognition",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "convert speech to text",
+        "Automatic Speech Recognition",
+        "Text Classification"
+      ],
+      [
+        "correct",
+        "image captioning",
+        "Image Captioning",
+        "Image Captioning"
+      ],
+      [
+        "incorrect",
+        "describe images",
+        "Image Captioning",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "generate captions for photos",
+        "Image Captioning",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "correct",
+        "sentence similarity",
+        "Sentence Similarity",
+        "Sentence Similarity"
+      ],
+      [
+        "correct",
+        "compare text similarity",
+        "Sentence Similarity",
+        "Sentence Similarity"
+      ],
+      [
+        "incorrect",
+        "find similar sentences",
+        "Sentence Similarity",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "video generation",
+        "Video Generation",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "create animations",
+        "Video Generation",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "generate video content",
+        "Video Generation",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "text to speech",
+        "Text-to-Speech",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "convert text to audio",
+        "Text-to-Speech",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "speech synthesis",
+        "Text-to-Speech",
+        "Automatic Speech Recognition"
+      ]
+    ],
+    "Dot Product": [
+      [
+        "correct",
+        "help me answer questions from documents",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "incorrect",
+        "I need to find answers in text",
+        "Question Answering",
+        "Image Captioning"
+      ],
+      [
+        "correct",
+        "answer questions about articles",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "what is question answering",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "how to answer questions",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "incorrect",
+        "qa system",
+        "Question Answering",
+        "Text Classification"
+      ],
+      [
+        "correct",
+        "respond to queries",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "incorrect",
+        "extract answers from text",
+        "Question Answering",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "find information in documents",
+        "Question Answering",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "answer questions from context",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "help me with my homework",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "incorrect",
+        "what does this text mean",
+        "Question Answering",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "explain this paragraph",
+        "Question Answering",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "get answers from data",
+        "Question Answering",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "question and answer system",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "retrieve answers",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "answer user queries",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "find answers in passages",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "answer questions about content",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "query answering system",
+        "Question Answering",
+        "Question Answering"
+      ],
+      [
+        "correct",
+        "summarize long articles",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "condense text into shorter version",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "create summary of documents",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "text summarization",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "summarise articles",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "brief overview of text",
+        "Summarization",
+        "Text Classification"
+      ],
+      [
+        "correct",
+        "shorten this document",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "extract key points",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "generate summary",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "compress text",
+        "Summarization",
+        "Text Classification"
+      ],
+      [
+        "correct",
+        "make this shorter",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "summarize legal contracts",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "brief summary needed",
+        "Summarization",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "condense information",
+        "Summarization",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "text compression",
+        "Summarization",
+        "Text Generation"
+      ],
+      [
+        "correct",
+        "classify images",
+        "Image Classification",
+        "Image Classification"
+      ],
+      [
+        "incorrect",
+        "identify objects in pictures",
+        "Image Classification",
+        "Image Captioning"
+      ],
+      [
+        "incorrect",
+        "what is in this image",
+        "Image Classification",
+        "Image Captioning"
+      ],
+      [
+        "incorrect",
+        "image recognition",
+        "Image Classification",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "categorize photos",
+        "Image Classification",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "classify images of animals",
+        "Image Classification",
+        "Image Classification"
+      ],
+      [
+        "incorrect",
+        "identify image content",
+        "Image Classification",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "picture classification",
+        "Image Classification",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "recognize objects in images",
+        "Image Classification",
+        "Image Captioning"
+      ],
+      [
+        "incorrect",
+        "image categorization",
+        "Image Classification",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "what objects are in photo",
+        "Image Classification",
+        "Image Captioning"
+      ],
+      [
+        "correct",
+        "classify pictures",
+        "Image Classification",
+        "Image Classification"
+      ],
+      [
+        "incorrect",
+        "image labeling",
+        "Image Classification",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "categorize images",
+        "Image Classification",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "identify image types",
+        "Image Classification",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "sentiment analysis",
+        "Text Classification",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "classify text sentiment",
+        "Text Classification",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "detect emotion in text",
+        "Text Classification",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "text categorization",
+        "Text Classification",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "classify documents",
+        "Text Classification",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "sentiment detection",
+        "Text Classification",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "categorize text",
+        "Text Classification",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "classify text into categories",
+        "Text Classification",
+        "Text Classification"
+      ],
+      [
+        "correct",
+        "text sentiment",
+        "Text Classification",
+        "Text Classification"
+      ],
+      [
+        "correct",
+        "document classification",
+        "Text Classification",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "categorize reviews",
+        "Text Classification",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "sentiment classifier",
+        "Text Classification",
+        "Summarization"
+      ],
+      [
+        "correct",
+        "classify text by topic",
+        "Text Classification",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "text category detection",
+        "Text Classification",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "sentiment analysis tool",
+        "Text Classification",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "translate text",
+        "Translation",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "language translation",
+        "Translation",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "translate between languages",
+        "Translation",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "convert text to another language",
+        "Translation",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "multilingual translation",
+        "Translation",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "translate documents",
+        "Translation",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "language converter",
+        "Translation",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "translate sentences",
+        "Translation",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "text translation service",
+        "Translation",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "translate content",
+        "Translation",
+        "Text Classification"
+      ],
+      [
+        "correct",
+        "generate images",
+        "Image Generation",
+        "Image Generation"
+      ],
+      [
+        "correct",
+        "create pictures",
+        "Image Generation",
+        "Image Generation"
+      ],
+      [
+        "correct",
+        "draw images",
+        "Image Generation",
+        "Image Generation"
+      ],
+      [
+        "correct",
+        "image generation",
+        "Image Generation",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "create artwork",
+        "Image Generation",
+        "Text Classification"
+      ],
+      [
+        "correct",
+        "generate pictures",
+        "Image Generation",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "draw pictures",
+        "Image Generation",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "create images from text",
+        "Image Generation",
+        "Image Captioning"
+      ],
+      [
+        "correct",
+        "image creation",
+        "Image Generation",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "generate visual content",
+        "Image Generation",
+        "Text Generation"
+      ],
+      [
+        "correct",
+        "speech recognition",
+        "Automatic Speech Recognition",
+        "Automatic Speech Recognition"
+      ],
+      [
+        "incorrect",
+        "transcribe audio",
+        "Automatic Speech Recognition",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "convert speech to text",
+        "Automatic Speech Recognition",
+        "Text Generation"
+      ],
+      [
+        "correct",
+        "image captioning",
+        "Image Captioning",
+        "Image Captioning"
+      ],
+      [
+        "incorrect",
+        "describe images",
+        "Image Captioning",
+        "Image Generation"
+      ],
+      [
+        "correct",
+        "generate captions for photos",
+        "Image Captioning",
+        "Image Captioning"
+      ],
+      [
+        "correct",
+        "sentence similarity",
+        "Sentence Similarity",
+        "Sentence Similarity"
+      ],
+      [
+        "incorrect",
+        "compare text similarity",
+        "Sentence Similarity",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "find similar sentences",
+        "Sentence Similarity",
+        "Summarization"
+      ],
+      [
+        "incorrect",
+        "video generation",
+        "Video Generation",
+        "Image Generation"
+      ],
+      [
+        "incorrect",
+        "create animations",
+        "Video Generation",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "generate video content",
+        "Video Generation",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "text to speech",
+        "Text-to-Speech",
+        "Text Classification"
+      ],
+      [
+        "incorrect",
+        "convert text to audio",
+        "Text-to-Speech",
+        "Text Generation"
+      ],
+      [
+        "incorrect",
+        "speech synthesis",
+        "Text-to-Speech",
+        "Text Generation"
+      ]
+    ]
+  }
+}

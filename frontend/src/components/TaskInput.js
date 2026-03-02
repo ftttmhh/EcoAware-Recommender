@@ -18,20 +18,23 @@ export default function TaskInput({ onTaskConfirmed }) {
   }
 
   return (
-    <div>
-      <label>Describe your task</label>
+    <div className="panel">
+      <div className="panel-title">Task description</div>
+      <label className="field-label">What do you want the model to do?</label>
       <textarea
+        className="textarea"
         value={text}
         onChange={(e) => setText(e.target.value)}
-        placeholder="e.g., Summarize legal contracts in plain English"
+        placeholder={'e.g., "Summarize legal contracts in plain English"'}
         rows={3}
-        style={{ width: "100%" }}
       />
-      <div style={{ marginTop: 8 }}>
-        <button onClick={handleMap}>Map task → category</button>
+      <div className="button-row">
+        <button className="primary-button" onClick={handleMap}>
+          Map task → category
+        </button>
         {mapping && (
-          <div style={{ marginTop: 8 }}>
-            <strong>Mapped to:</strong> {mapping.category} (score: {mapping.score.toFixed(3)})
+          <div className="badge-subtle">
+            Mapped to: {mapping.category} &nbsp;·&nbsp; score {mapping.score.toFixed(3)}
           </div>
         )}
       </div>

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import TaskInput from "./components/TaskInput";
 import ConstraintsPanel from "./components/ConstraintsPanel";
 import ResultsTable from "./components/ResultsTable";
+import TradeoffCharts from "./components/TradeoffCharts";
 import { getRecommendations, setBaseline, getModelsForTask } from "./api";
 
 function App() {
@@ -51,46 +52,80 @@ function App() {
   }, [taskCategory]);
 
   return (
-    <div style={{ padding: 20 }}>
-      <h2>Sustainable AI Model Recommender</h2>
-      <TaskInput onTaskConfirmed={(cat) => setTaskCategory(cat)} />
-      <ConstraintsPanel onChange={(c)=>{ setFilters(c); }} />
-      {taskCategory && (
-        <div style={{ marginTop: 12 }}>
-          <label>Choose an optional go-to model for this task (optional):</label>
-          <div>
-            <select value={baselineModel} onChange={(e)=>setBaselineModel(e.target.value)}>
-              <option value="">-- no baseline --</option>
-              {modelsForTask.map((m)=> (
-                <option key={m} value={m}>{m}</option>
-              ))}
-            </select>
-            <button onClick={async ()=>{
-              if (!baselineModel) return alert('Select a model or leave empty');
-              try {
-                await setBaseline(taskCategory, baselineModel);
-                alert('Baseline saved');
-              } catch(e){ console.error(e); alert('Could not save baseline') }
-            }}>Save baseline</button>
+    <div className="app-root">
+      <div className="app-shell">
+        <header className="app-header">
+          <h1 className="app-title">EcoAware Recommender</h1>
+          <p className="app-subtitle">
+            Visualize and choose AI models that balance accuracy, latency, and environmental impact.
+          </p>
+        </header>
+
+        <div className="layout-grid">
+          <TaskInput onTaskConfirmed={(cat) => setTaskCategory(cat)} />
+          <ConstraintsPanel onChange={(c)=>{ setFilters(c); }} />
+        </div>
+
+        {taskCategory && (
+          <div className="baseline-panel">
+            <div style={{ marginBottom: 6, fontWeight: 500 }}>
+              Optional baseline for <span style={{ fontStyle: "italic" }}>{taskCategory}</span>
+            </div>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: 8, alignItems: "center" }}>
+              <select
+                className="select-input"
+                value={baselineModel}
+                onChange={(e)=>setBaselineModel(e.target.value)}
+              >
+                <option value="">No baseline (compare models only)</option>
+                {modelsForTask.map((m)=> (
+                  <option key={m} value={m}>{m}</option>
+                ))}
+              </select>
+              <button
+                className="secondary-button"
+                onClick={async ()=>{
+                  if (!baselineModel) return alert('Select a model or leave empty');
+                  try {
+                    await setBaseline(taskCategory, baselineModel);
+                    alert('Baseline saved');
+                  } catch(e){ console.error(e); alert('Could not save baseline') }
+                }}
+              >
+                Save baseline
+              </button>
+            </div>
           </div>
+        )}
+
+        <div className="button-row" style={{ marginTop: 14 }}>
+          <button className="primary-button" onClick={handleRecommend}>
+            Get recommendations
+          </button>
         </div>
-      )}
-      <div style={{ marginTop: 12 }}>
-        <button onClick={handleRecommend}>Get Recommendations</button>
+
+        <ResultsTable recs={recs} context={recContext} />
+
+        {recContext && (
+          <div className="baseline-panel" style={{ marginTop: 12 }}>
+            <div style={{ fontWeight: 600, marginBottom: 4 }}>Baseline diagnostics</div>
+            <div><strong>Baseline input:</strong> {recContext.baseline_input ?? 'none'}</div>
+            <div><strong>Baseline matched model:</strong> {recContext.baseline_matched_model ?? 'none'}</div>
+            <div><strong>Baseline energy (Wh/1k):</strong> {recContext.baseline_energy_wh_per_1k ?? 'N/A'}</div>
+            <div><strong>Baseline in task:</strong> {String(recContext.baseline_in_task)}</div>
+            <div><strong>Baseline passed filters:</strong> {String(recContext.baseline_passed_filters)}</div>
+            {recContext.baseline_note && (
+              <div style={{ color: "#92400e", marginTop: 4 }}>
+                <strong>Note:</strong> {recContext.baseline_note}
+              </div>
+            )}
+          </div>
+        )}
+
+        <div className="charts-section">
+          <TradeoffCharts recs={recs} />
+        </div>
       </div>
-      <ResultsTable recs={recs} context={recContext} />
-      {recContext && (
-        <div style={{ marginTop: 12, padding: 8, border: '1px solid #ddd' }}>
-          <h4>Baseline diagnostics</h4>
-          <div><strong>Baseline input:</strong> {recContext.baseline_input ?? 'none'}</div>
-          <div><strong>Baseline matched model:</strong> {recContext.baseline_matched_model ?? 'none'}</div>
-          <div><strong>Baseline energy (Wh/1k):</strong> {recContext.baseline_energy_wh_per_1k ?? 'N/A'}</div>
-          <div><strong>Baseline in task:</strong> {String(recContext.baseline_in_task)}</div>
-          <div><strong>Baseline passed filters:</strong> {String(recContext.baseline_passed_filters)}</div>
-          <div><strong>Baseline comparable score:</strong> {recContext.baseline_comparable_score ?? 'N/A'}</div>
-          {recContext.baseline_note && (<div style={{ color: 'orange' }}><strong>Note:</strong> {recContext.baseline_note}</div>)}
-        </div>
-      )}
     </div>
   );
 }

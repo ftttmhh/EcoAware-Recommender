@@ -1,8 +1,8 @@
 {
-  "Text Generation": "gpt2",
-  "Image Generation": "distilbert-base-uncased",
+  "Text Generation": "phi-4",
+  "Image Generation": "mitsua-diffusion-one",
   "Image Captioning": "distilbert-base-uncased",
-  "Text Classification": "distilbert-base-uncased",
-  "Summarization": "bart-large-cnn",
-  "Question Answering": "t5-11b"
+  "Text Classification": "t5-11b",
+  "Summarization": "t5-11b",
+  "Question Answering": "t5-large"
 }
