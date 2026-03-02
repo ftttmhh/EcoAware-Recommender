@@ -1,4 +1,4 @@
-# Sustainable AI Model Recommender
+# EcoAware Recommender
 
 ## Project Structure
 
